@@ -2,6 +2,12 @@
 # General config.
 gitlab_external_url: "https://gitlab/"
 gitlab_git_data_dir: "/var/opt/gitlab/git-data"
+gitlab_signup_enabled: true
+
+#external webserver
+gitlab_enable_nginx: true
+gitlab_external_user: httpd
+gitlab_workhorse_listen: 127.0.0.1:8181
 
 # SSL Configuration.
 gitlab_redirect_http_to_https: "true"
